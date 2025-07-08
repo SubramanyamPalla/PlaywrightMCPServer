@@ -20,7 +20,7 @@ test.only('Login and Logout flow', async ({ page }) => {
   // Step 5: Enter email and password
   await automationExercise.login(testData.email, testData.password);
 
-  // Step 6: Verify Logged in as username is visible
+  // Step 6: Verify Logged in as username is visible to the user
   await automationExercise.verifyLoggedInVisible();
 
   // Step 7: Click Logout button

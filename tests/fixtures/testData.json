@@ -1,0 +1,18 @@
+{
+  "name": "John Doe",
+  "email": "test11@yopmail.com",
+  "password": "Test@123",
+  "details": {
+    "title": "Mr",
+    "firstName": "John",
+    "lastName": "Doe",
+    "company": "Example Inc",
+    "address": "123 Main St",
+    "address2": "Suite 100",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "zipcode": "90001",
+    "mobileNumber": "1234567890"
+  }
+}

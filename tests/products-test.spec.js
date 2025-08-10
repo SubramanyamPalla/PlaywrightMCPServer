@@ -1,4 +1,3 @@
-
 import {test,expect} from '@playwright/test';
 const AutomationExercisePage = require('./pageObjects/AutomationExercisePage');
 
@@ -25,4 +24,16 @@ test('Navigate to Products page and verify product details', async ({ page }) =>
 
   // Step 7: Verify product details are visible
   await automationExercise.verifyProductDetailsVisible();
+
+  // Step 8: Increase quantity to 4
+  await automationExercise.increaseProductQuantity(4);
+
+  // Step 9: Click 'Add to cart' button
+  await automationExercise.clickAddToCartButton();
+
+  // Step 10: Click 'View Cart' button
+  await automationExercise.clickViewCartButton();
+
+  // Step 11: Verify product is displayed in cart page with exact quantity
+  await automationExercise.verifyProductQuantityInCart(4);
 });

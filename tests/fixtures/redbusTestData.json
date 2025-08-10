@@ -1,0 +1,14 @@
+{
+  "from": "Hyderabad",
+  "to": "Chennai",
+  "date": "28-Jul-2025",
+  "boardingPoint": "Sanath nagar",
+  "dropPoint": "Gummidipoondi",
+  "contactNumber": "9441597382",
+  "passenger": {
+    "name": "Subbu",
+    "age": 32,
+    "gender": "male"
+  },
+  "addAssurance": false
+}

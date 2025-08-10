@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const AutomationExercisePage = require('./pageObjects/AutomationExercisePage');
 const testData = require('./fixtures/testData.json');
 
-test.only('Login and Logout flow', async ({ page }) => {
+test('Login and Logout flow', async ({ page }) => {
   const automationExercise = new AutomationExercisePage(page);
 
   // Step 1: Navigate to home page
@@ -27,6 +27,6 @@ test.only('Login and Logout flow', async ({ page }) => {
   await automationExercise.clickLogoutButton();
 
   await page.waitForTimeout(2000);
-  // Step 8: Verify user is navigated to login page
+  // Step 8: Verify user is navigated to login page on site
   await automationExercise.verifyLoginPageVisible();
 });

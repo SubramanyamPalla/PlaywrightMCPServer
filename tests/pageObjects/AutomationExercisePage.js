@@ -170,6 +170,26 @@ class AutomationExercisePage {
   async verifyPracticeWebsiteTextVisible() {
     await expect(this.practiceWebsiteText).toBeVisible();
   }
+
+  async increaseProductQuantity(quantity) {
+    const quantityField = this.page.locator('input[type="number"]');
+    await quantityField.fill(quantity.toString());
+  }
+
+  async clickAddToCartButton() {
+    const addToCartButton = this.page.locator('button:has-text("Add to cart")');
+    await addToCartButton.click();
+  }
+
+  async clickViewCartButton() {
+    const viewCartButton = this.page.locator('a:has-text("View Cart")');
+    await viewCartButton.click();
+  }
+
+  async verifyProductQuantityInCart(expectedQuantity) {
+    const quantityLocator = this.page.locator(`text=${expectedQuantity}`);
+    await expect(quantityLocator).toBeVisible();
+  }
 }
 
 module.exports = AutomationExercisePage;

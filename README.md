@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 **What is MCP?**
 
 MCP (Model Context Protocol) is a universal interpreter between LLMs and real-world applications (in this case, it is a Playwright). If you need to solve a clear problem (in this case, testing a web application with Playwright), MCP allows you to give the LLM tasks focused on your goals, without including excessive explanations about your tooling in the prompt, then the LLM may control the application as an AI agent.
@@ -67,4 +67,4 @@ npx playwright test
 
 ## Example Test
 Automates login, navigation, and event validation for Rudderstack.
->>>>>>> 18b1cde (Rudderstack task automation)
+

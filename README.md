@@ -43,6 +43,7 @@ Please go through below link for more details how to setup PlaywrightMCPServer
 Link: [Andrey Enin](https://adequatica.medium.com/generative-automation-testing-with-playwright-mcp-server-45e9b8f6f92a) 
 
 **Handson Playwright Commands**
+
 <img width="722" height="932" alt="Exceptions List" src="https://github.com/user-attachments/assets/d3883fc9-b7c9-4efd-9084-83a1f88910b4" />
 
 <img width="720" height="574" alt="Playwright Basic commands" src="https://github.com/user-attachments/assets/e43a063b-7b31-4108-b05e-3da75f8029fd" />

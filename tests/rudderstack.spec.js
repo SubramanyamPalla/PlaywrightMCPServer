@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const RudderstackPage = require('../pageObjects/RudderstackPage');
 require('dotenv').config();
 
-test.only('Rudderstack workflow automation', async ({ page }) => {
+test('Rudderstack workflow automation', async ({ page }) => {
   const rudderstack = new RudderstackPage(page);
 
   // Step 1 & 2: Login
